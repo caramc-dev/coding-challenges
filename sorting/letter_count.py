@@ -1,0 +1,5 @@
+def str_count(str, letter):
+    return str.count(letter)
+
+print(str_count("hello", "l"))
+
