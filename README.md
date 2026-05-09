@@ -41,6 +41,36 @@ Repo to store and share codewars practice solutions in preparation for the CFG f
 * `ord(character)` - returns the ASCII integer value of a single character. e.g. `ord('a')` returns 97.
 * `chr(integer)` - the reverse of ord(). Returns the character that corresponds to an ASCII integer. e.g. `chr(97)` returns 'a'.
 
+### lists:
+* `.append(item)` - appends a single item to the end of a list. Mutates the original list.
+* `.insert(index, element)` - inserts a new element at the index position, mutating the original list. 2 arguments are always required.
+* `.remove(item)` - removes the first occurrence of a specified item from the list. Raises a ValueError if the item is not found. Mutates the original list.
+* `.pop(index)` - removes and returns the item at the given index. Defaults to the last item if no index is provided. Mutates the original list.
+* `.sort()` - sorts the original list in place. By default, sorts in ascending order. `reverse=True` will sort in descending order. Mutates the original list.
+* `sorted()` - does the same job as .sort() but returns a new list, leaving the original unchanged.
+* `.index(item)` - returns the index position of the first occurrence of an item. Raises a ValueError if not found.
+* `.count(value)` - counts the number of times a value appears in a list. Linear search so best used on smaller lists.
+* `.reverse()` - reverses the items in a list in place - [1, 2, 3] becomes [3, 2, 1]. Mutates the original list.
+
+### Dictionaries:
+* `.keys()` - returns all keys in the dictionary as a view object, for example: `dict_keys(['a', 'b', 'c'])`. Can be converted to a list with `list()`.
+* `.values()` - returns all values in the dictionary as a view object, for example: `dict_values(['a', 'b', 'c'])`. Can be converted to a list with `list()`.
+* `.items()` - returns all key-value pairs as tuples in a view object. Useful for iterating: `for k, v in dict.items()`.
+* `.get(key, default)` - returns the value for a key if it exists. Returns `None` by default if not found, or a specified default value. Safer than `dict[key]` which raises a KeyError if missing.
+* `.update(other_dict)` - merges another dictionary into the current one. If a key already exists, its value is overwritten. Mutates the original dictionary.
+
+### Built-ins:
+* `len(object)` - returns the number of items in an object (string, list, dict etc).
+* `range(start, stop, step)` - generates a sequence of numbers. Stop is not inclusive. Commonly used in for loops.
+* `min(iterable)`, `max(iterable)` - returns the smallest or largest item in an iterable.
+* `sum(iterable)` - returns the total of all items in an iterable. Items must be numeric.
+* `enumerate(iterable, start=0)` - returns an index and value pair for each item. Useful when you need both the position and value in a loop.
+* `zip(iterable1, iterable2)` - combines two or more iterables into tuples, pairing items by index position. Stops at the shortest iterable.
+* `int()`, `str()`, `float()` - convert a value to an integer, string, or float respectively.
+* `set(iterable)` - converts an iterable to a set, removing all duplicates. Unordered so index positions cannot be relied on.
+* `any(iterable)` - returns True if at least one item in the iterable is True.
+* `all(iterable)` - returns True only if every item in the iterable is True.
+* `type(object)` - returns the data type. For example `type(1)` returns `<class 'int'>`.
 
 ## Syntax to remember
 
