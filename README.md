@@ -11,16 +11,19 @@ Repo to store and share codewars practice solutions in preparation for the CFG f
 | Maths                    | count_the_milliseconds.py, square_digits.py                                                                                                    |
 | Conditional Branching    | who_likes_it.py                                                                                                                                |
 | List Comprehension       | count_the_divisors.py, line_numbering.py, title_every_word.py, reverse_word.py, alphabet_position.py, spin_words.py, indexed_capitilisation.py |
-| Loops                    | delete_occurances_more_than_n_times.py, create_phone_num.py, find_the_duplicate.py, mumble.py                                                  |
-| Enumerate                | create_phone_num.py, mumble.py, line_numbering.py, indexed_capitilisation.py                                                                   |
+| Loops                    | delete_occurances_more_than_n_times.py, create_phone_num.py, find_the_duplicate.py, mumble.py, question_marks.py                               |
+| Enumerate                | create_phone_num.py, mumble.py, line_numbering.py, indexed_capitilisation.py, question_marks.py                                                |
+| Zip                      | find_missing_letter.py, question_marks.py                                                                                                      |
 | Sorting                  | sum_of_2_lowest_ints.py, find_smallest_int.py                                                                                                  |
 | Built-in Functions       | min_max.py, letter_count.py, find_smallest_int.py                                                                                              |
 | String Manipulation      | pig_latin.py, reverse_word.py, mumble.py, title_every_word.py, expanded_nums.py, alphabet_position.py, square_digits.py                        |
-| String Slicing           | reverse_word.py, spin_words.py                                                                                                                 |
+| String Slicing           | reverse_word.py, spin_words.py, question_marks.py                                                                                              |
 | String Formatting        | who_likes_it.py, create_phone_num.py, expanded_nums.py, sum_the_strs.py                                                                        |
+| Tuples                   | question_marks.py                                                                                                                              |
 | Validation               | simple_password.py                                                                                                                             |
-| Dictionaries             | counting_characters.py                                                                                                                         | 
-| Dictionary Comprehension | counting_characters.py                                                                                                                         | |
+| Dictionaries             | counting_characters.py                                                                                                                         |
+| Dictionary Comprehension | counting_characters.py                                                                                                                         |
+                                                                                                                 |                          |
 
 
 ## Methods:
@@ -94,3 +97,13 @@ Example:
 string = "12345678912"
 slice(0, 10, 2) would slice from index position up to 9 (as the upper bound is not inclusive) skipping every other one. This would output "13579"
 
+## List comprehension patterns
+
+Standard - apply an expression to every item:
+`[expression for item in iterable]`
+
+Filter - only include items where condition is true:
+`[expression for item in iterable if condition]`
+
+Ternary - apply one of two expressions based on a condition:
+`[expression_if_true if condition else expression_if_false for item in iterable]`
