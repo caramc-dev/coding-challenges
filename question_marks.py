@@ -23,7 +23,7 @@ def question_marks(str):
     # Inside the loop first check if the values in each tuple add up to 10
     # If they do, slice the string on the index positions
     #
-    # If the resulting string has the pattern "???" is found, then it adds 1 to the pairs 'counter' declared above.
+    # If the resulting string has 3 question marks add to valid pair counter
     for (index1, value1), (index2, value2) in zip(nums, nums[1:]):
         if value1 + value2 == 10:
             count += 1
