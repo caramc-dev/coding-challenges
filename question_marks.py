@@ -3,11 +3,6 @@ def question_marks(str):
     nums = []
     count = 0
 
-    # First, check if there are no patterns matching "???"
-    # This exits the loop immediately and prevents unnecessary runtime
-    if "???" not in str:
-        return False
-
     # Enumerate used to create a list of tuples where it encounters a number,
     # capturing the index position, and the number - converting the value to a number so we can add later
     # i.e.
@@ -32,7 +27,7 @@ def question_marks(str):
     for (index1, value1), (index2, value2) in zip(nums, nums[1:]):
         if value1 + value2 == 10:
             count += 1
-            if "???" not in str[index1: index2]:
+            if not str[index1: index2].count ("?") == 3:
                 return False
 
     # Check if count is empty (0), as 0 is a falsy value
