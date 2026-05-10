@@ -27,7 +27,7 @@ def question_marks(str):
     for (index1, value1), (index2, value2) in zip(nums, nums[1:]):
         if value1 + value2 == 10:
             count += 1
-            if not str[index1: index2].count ("?") == 3:
+            if not str[index1: index2].count("?") == 3:
                 return False
 
     # Check if count is empty (0), as 0 is a falsy value
