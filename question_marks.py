@@ -4,14 +4,15 @@ def question_marks(str):
     count = 0
 
     # Enumerate used to create a list of tuples where it encounters a number,
-    # capturing the index position, and the number - converting the value to a number so we can add later
+    # Captures the index position, and the number - converting the value to a number so we can add later
+    # Appends to the list as a tuple
     # i.e.
     # [(4, 6), (8, 4), (13, 5), (20, 5), (24, 9)]
     for index, num in enumerate(str):
         if num.isdigit():
             nums.append((index, int(num)))
 
-    # Unpack the tuples to be used into variables that can be compared against each other
+    # Unpack the tuples created by the for loop as variables that can be compared against each other
     # Loop through the list using zip to compare '2' lists together
     # list '1' is the original nums list, starting at index position zero
     # list '2' is nums[1:] is the list starting at index 1, not index zero.

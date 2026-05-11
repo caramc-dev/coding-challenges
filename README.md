@@ -8,7 +8,7 @@ Repo to store and share codewars practice solutions in preparation for the CFG f
 |--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
 | Ternary                  | even_or_odd.py                                                                                                                                 |
 | Modulus                  | even_or_odd.py, count_the_divisors.py                                                                                                          |
-| Maths                    | count_the_milliseconds.py, square_digits.py                                                                                                    |
+| Maths                    | count_the_milliseconds.py, square_digits.py, first_factorial.py                                                                                |
 | Conditional Branching    | who_likes_it.py                                                                                                                                |
 | List Comprehension       | count_the_divisors.py, line_numbering.py, title_every_word.py, reverse_word.py, alphabet_position.py, spin_words.py, indexed_capitilisation.py |
 | Loops                    | delete_occurances_more_than_n_times.py, create_phone_num.py, find_the_duplicate.py, mumble.py, question_marks.py                               |
@@ -23,8 +23,8 @@ Repo to store and share codewars practice solutions in preparation for the CFG f
 | Validation               | simple_password.py                                                                                                                             |
 | Dictionaries             | counting_characters.py                                                                                                                         |
 | Dictionary Comprehension | counting_characters.py                                                                                                                         |
-                                                                                                                 |                          |
-
+| Recursion                | first_factorial.py                                                                                                                             |
+|                          |                                                                                                                                                |
 
 ## Methods:
 
