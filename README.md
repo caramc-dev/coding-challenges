@@ -6,7 +6,7 @@ Repo to store and share codewars practice solutions in preparation for the CFG f
 
 | Concept                  | Files                                                                                                                                                          |
 |--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ternary                  | even_or_odd.py, boolean_to_string.py, string_ends_with.py                                                                                                      |
+| Ternary/Boolean          | even_or_odd.py, boolean_to_string.py, string_ends_with.py, pin.py                                                                                              |
 | Modulus                  | even_or_odd.py, count_the_divisors.py                                                                                                                          |
 | Maths                    | count_the_milliseconds.py, square_digits.py, first_factorial.py                                                                                                |
 | Conditional Branching    | who_likes_it.py                                                                                                                                                |
