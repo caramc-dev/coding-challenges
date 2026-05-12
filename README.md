@@ -115,7 +115,6 @@ Repo to store and share codewars practice solutions in preparation for the CFG f
 ### import string
 - simple_password_1.py
 
----
 
 ## Index by Method
 
@@ -224,8 +223,6 @@ Repo to store and share codewars practice solutions in preparation for the CFG f
 
 ### string.punctuation
 - simple_password_1.py
-
----
 
 ## Methods:
 
