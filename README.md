@@ -4,27 +4,228 @@ Repo to store and share codewars practice solutions in preparation for the CFG f
 
 ## Index by Concept
 
-| Concept                  | Files                                                                                                                                                       |
-|--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ternary/Boolean          | even_or_odd.py, boolean_to_string.py, string_ends_with.py, pin.py                                                                                           |
-| Modulus                  | even_or_odd.py, count_the_divisors.py                                                                                                                       |
-| Maths                    | count_the_milliseconds.py, square_digits.py, first_factorial.py                                                                                             |
-| Conditional Branching    | who_likes_it.py, to_24hour_time.py                                                                                                                          |
-| List Comprehension       | vowel_count.py, count_the_divisors.py, line_numbering.py, title_every_word.py, reverse_word.py, alphabet_position.py, spin_words.py, indexed_capitilisation.py |
-| Loops                    | delete_occurances_more_than_n_times.py, create_phone_num.py, find_the_duplicate.py, mumble.py, question_marks.py                                            |
-| Enumerate                | create_phone_num.py, mumble.py, line_numbering.py, indexed_capitilisation.py, question_marks.py                                                             |
-| Zip                      | find_missing_letter.py, question_marks.py                                                                                                                   |
-| Sorting                  | sum_of_2_lowest_ints.py, find_smallest_int.py                                                                                                               |
-| Built-in Functions       | min_max.py, letter_count.py, find_smallest_int.py                                                                                                           |
-| String Manipulation      | pig_latin.py, reverse_word.py, mumble.py, title_every_word.py, expanded_nums.py, alphabet_position.py, square_digits.py                                     |
-| String Slicing           | reverse_word.py, spin_words.py, question_marks.py                                                                                                           |
-| String Formatting        | who_likes_it.py, create_phone_num.py, expanded_nums.py, sum_the_strs.py, to_24hour_time.py                                                                  |
-| Tuples                   | question_marks.py                                                                                                                                           |
-| Validation               | simple_password_1.py, simple_password_2.py,                                                                                                                 |
-| Dictionaries             | counting_characters.py                                                                                                                                      |
-| Dictionary Comprehension | counting_characters.py                                                                                                                                      |
-| Recursion                | first_factorial.py                                                                                                                                          |
-|                          |                                                                                                                                                             |
+### Ternary/Boolean
+- even_or_odd.py
+- boolean_to_string.py
+- string_ends_with.py
+- pin.py
+
+### Modulus
+- even_or_odd.py
+- count_the_divisors.py
+
+### Maths
+- count_the_milliseconds.py
+- square_digits.py
+- first_factorial.py
+
+### Conditional Branching
+- who_likes_it.py
+- to_24hour_time.py
+
+### List Comprehension
+- vowel_count.py
+- count_the_divisors.py
+- line_numbering.py
+- title_every_word.py
+- reverse_word.py
+- alphabet_position.py
+- indexed_captilisation.py
+
+### Loops
+- delete_occurances_more_than_n_times.py
+- create_phone_num.py
+- find_the_duplicate.py
+- mumble.py
+- question_marks.py
+- bracket_matcher.py
+
+### Enumerate
+- create_phone_num.py
+- mumble.py
+- line_numbering.py
+- indexed_captilisation.py
+- question_marks.py
+
+### Zip
+- find_the_missing_letter.py
+- question_marks.py
+
+### Sorting
+- sum_of_2_lowest_ints.py
+- find_smallest_int.py
+
+### Built-in Functions
+- min_max.py
+- letter_count.py
+- find_smallest_int.py
+
+### String Manipulation
+- pig_latin.py
+- reverse_word.py
+- mumble.py
+- title_every_word.py
+- expanded_nums.py
+- alphabet_position.py
+- square_digits.py
+- abbreviate.py
+
+### String Slicing
+- reverse_word.py
+- question_marks.py
+
+### String Formatting
+- who_likes_it.py
+- create_phone_num.py
+- expanded_nums.py
+- sum_the_strs.py
+- to_24hour_time.py
+
+### Tuples
+- question_marks.py
+
+### Validation
+- simple_password.py
+- simple_password_1.py
+- phone_number_validation_1.py
+
+### Dictionaries
+- counting_characters.py
+
+### Dictionary Comprehension
+- counting_characters.py
+
+### Recursion
+- first_factorial.py
+
+### Sets
+- counting_characters.py
+
+### ASCII / ord & chr
+- alphabet_position.py
+
+### Counter Pattern
+- bracket_matcher.py
+
+### any() / all()
+- pin.py
+- simple_password.py
+- simple_password_1.py
+
+### import string
+- simple_password_1.py
+
+---
+
+## Index by Method
+
+### .split()
+- abbreviate.py
+- alphabet_position.py
+- pig_latin.py
+- reverse_word.py
+- title_every_word.py
+
+### .join()
+- abbreviate.py
+- alphabet_position.py
+- mumble.py
+- reverse_word.py
+- create_phone_num.py
+
+### .upper() / .lower() / .capitalize()
+- abbreviate.py
+- alphabet_position.py
+- mumble.py
+- indexed_captilisation.py
+- title_every_word.py
+
+### .isalpha()
+- alphabet_position.py
+
+### .isdigit()
+- alphabet_position.py
+- simple_password.py
+- simple_password_1.py
+
+### .isupper() / .islower()
+- simple_password.py
+- simple_password_1.py
+
+### .startswith() / .endswith()
+- simple_password.py
+- simple_password_1.py
+- string_ends_with.py
+
+### .count()
+- counting_characters.py
+- letter_count.py
+- vowel_count.py
+
+### .replace()
+- pig_latin.py
+
+### .append()
+- create_phone_num.py
+- delete_occurances_more_than_n_times.py
+
+### .sort() / sorted()
+- sum_of_2_lowest_ints.py
+- find_smallest_int.py
+
+### .format()
+- create_phone_num.py
+- who_likes_it.py
+- expanded_nums.py
+
+### ord() / chr()
+- alphabet_position.py
+
+### len()
+- simple_password.py
+- simple_password_1.py
+- letter_count.py
+- vowel_count.py
+
+### range()
+- count_the_divisors.py
+- line_numbering.py
+
+### min() / max()
+- min_max.py
+- find_smallest_int.py
+
+### sum()
+- sum_of_2_lowest_ints.py
+
+### set()
+- counting_characters.py
+
+### enumerate()
+- create_phone_num.py
+- mumble.py
+- line_numbering.py
+- indexed_captilisation.py
+- question_marks.py
+
+### zip()
+- find_the_missing_letter.py
+- question_marks.py
+
+### any() / all()
+- pin.py
+- simple_password.py
+- simple_password_1.py
+
+### str() / int()
+- square_digits.py
+- sum_the_strs.py
+- expanded_nums.py
+
+### string.punctuation
+- simple_password_1.py
+
+---
 
 ## Methods:
 

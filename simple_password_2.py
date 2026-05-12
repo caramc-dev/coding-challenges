@@ -9,7 +9,7 @@ def simple_password(password):
     if not any(char.isdigit() for char in password):
         return "false"
 
-    if not (".,!?:;" for char in password):
+    if not (char in ".,!?:;" for char in password):
         return "false"
 
     return "true"
