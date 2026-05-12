@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a363acf7-0262-47b7-be4e-18e2e646faa1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/word_frequency.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longest_word.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/word_frequency.py" beforeDir="false" afterPath="$PROJECT_DIR$/word_frequency.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +47,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.abbreviate.executor": "Run",
+    "Python.longest_word.executor": "Run",
     "Python.pin.executor": "Run",
     "Python.simple_password.executor": "Run",
     "Python.string_ends_with.executor": "Run",
@@ -60,8 +62,8 @@
     "settings.editor.selected.configurable": "editor.preferences.inline.completion"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.word_frequency">
-    <configuration name="pin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.longest_word">
+    <configuration name="longest_word" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="coding-challenges" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -75,7 +77,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pin.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/longest_word.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.longest_word" />
         <item itemvalue="Python.word_frequency" />
         <item itemvalue="Python.simple_password_1" />
         <item itemvalue="Python.string_expansion" />
         <item itemvalue="Python.to_24hour_time" />
-        <item itemvalue="Python.pin" />
       </list>
     </recent_temporary>
   </component>

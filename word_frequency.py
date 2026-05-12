@@ -7,7 +7,9 @@ def analyze_text(text):
         return "String not provided"
 
     # Convert the text to lowercase & remove punctuation
-    text = text.lower().replace(string.punctuation, "")
+    text = text.lower()
+
+    text = text.translate(str.maketrans("", "", string.punctuation))
 
     # Split the text into individual words
     word_list = text.split()
@@ -23,7 +25,7 @@ def analyze_text(text):
     return max(word_dict, key=word_dict.get)
 
 
-# Test cases
+ # Test cases
 print(analyze_text("The quick brown fox jumps over the lazy dog."))  # "the"
 print(analyze_text("Hello world! Hello Python. Python is fun."))  # "hello"
 print(analyze_text("a a a b b c"))  # "a"
