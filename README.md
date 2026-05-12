@@ -4,32 +4,33 @@ Repo to store and share codewars practice solutions in preparation for the CFG f
 
 ## Index by Concept
 
-| Concept                  | Files                                                                                                                                                          |
-|--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ternary/Boolean          | even_or_odd.py, boolean_to_string.py, string_ends_with.py, pin.py                                                                                              |
-| Modulus                  | even_or_odd.py, count_the_divisors.py                                                                                                                          |
-| Maths                    | count_the_milliseconds.py, square_digits.py, first_factorial.py                                                                                                |
-| Conditional Branching    | who_likes_it.py, to_24hour_time.py                                                                                                                             |
+| Concept                  | Files                                                                                                                                                       |
+|--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Ternary/Boolean          | even_or_odd.py, boolean_to_string.py, string_ends_with.py, pin.py                                                                                           |
+| Modulus                  | even_or_odd.py, count_the_divisors.py                                                                                                                       |
+| Maths                    | count_the_milliseconds.py, square_digits.py, first_factorial.py                                                                                             |
+| Conditional Branching    | who_likes_it.py, to_24hour_time.py                                                                                                                          |
 | List Comprehension       | vowel_count.py, count_the_divisors.py, line_numbering.py, title_every_word.py, reverse_word.py, alphabet_position.py, spin_words.py, indexed_capitilisation.py |
-| Loops                    | delete_occurances_more_than_n_times.py, create_phone_num.py, find_the_duplicate.py, mumble.py, question_marks.py                                               |
-| Enumerate                | create_phone_num.py, mumble.py, line_numbering.py, indexed_capitilisation.py, question_marks.py                                                                |
-| Zip                      | find_missing_letter.py, question_marks.py                                                                                                                      |
-| Sorting                  | sum_of_2_lowest_ints.py, find_smallest_int.py                                                                                                                  |
-| Built-in Functions       | min_max.py, letter_count.py, find_smallest_int.py                                                                                                              |
-| String Manipulation      | pig_latin.py, reverse_word.py, mumble.py, title_every_word.py, expanded_nums.py, alphabet_position.py, square_digits.py                                        |
-| String Slicing           | reverse_word.py, spin_words.py, question_marks.py                                                                                                              |
-| String Formatting        | who_likes_it.py, create_phone_num.py, expanded_nums.py, sum_the_strs.py, to_24hour_time.py                                                                     |
-| Tuples                   | question_marks.py                                                                                                                                              |
-| Validation               | simple_password.py                                                                                                                                             |
-| Dictionaries             | counting_characters.py                                                                                                                                         |
-| Dictionary Comprehension | counting_characters.py                                                                                                                                         |
-| Recursion                | first_factorial.py                                                                                                                                             |
-|                          |                                                                                                                                                                |
+| Loops                    | delete_occurances_more_than_n_times.py, create_phone_num.py, find_the_duplicate.py, mumble.py, question_marks.py                                            |
+| Enumerate                | create_phone_num.py, mumble.py, line_numbering.py, indexed_capitilisation.py, question_marks.py                                                             |
+| Zip                      | find_missing_letter.py, question_marks.py                                                                                                                   |
+| Sorting                  | sum_of_2_lowest_ints.py, find_smallest_int.py                                                                                                               |
+| Built-in Functions       | min_max.py, letter_count.py, find_smallest_int.py                                                                                                           |
+| String Manipulation      | pig_latin.py, reverse_word.py, mumble.py, title_every_word.py, expanded_nums.py, alphabet_position.py, square_digits.py                                     |
+| String Slicing           | reverse_word.py, spin_words.py, question_marks.py                                                                                                           |
+| String Formatting        | who_likes_it.py, create_phone_num.py, expanded_nums.py, sum_the_strs.py, to_24hour_time.py                                                                  |
+| Tuples                   | question_marks.py                                                                                                                                           |
+| Validation               | simple_password_1.py, simple_password_2.py,                                                                                                                 |
+| Dictionaries             | counting_characters.py                                                                                                                                      |
+| Dictionary Comprehension | counting_characters.py                                                                                                                                      |
+| Recursion                | first_factorial.py                                                                                                                                          |
+|                          |                                                                                                                                                             |
 
 ## Methods:
 
 ### strings:
 * `.upper()`, `.lower()`, `.capitalize()` - change the case of your string.
+* `.startswith("string")`, `.endswith("string")` - check if a string starts with or ends with a sub-string of characters
 * `.split(separator, maxsplit)` - split a string into smaller parts - defaults used if no args added.
   * `separator` arg allows you to choose a delimiter on where to split. The default is on any white space.
   * `maxsplit` arg defines the maximum number of splits to perform. The default is -1 which is unlimited.
